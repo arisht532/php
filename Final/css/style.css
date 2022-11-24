@@ -1,0 +1,39 @@
+header{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background: linear-gradient(225deg, #395B64 0%, #A5C9CA 100%);
+
+
+  align-items: center;
+  justify-content: center;
+}
+header h1{
+  font-size: 2.5em;
+  color: white;
+}
+.container{
+  padding: 5%;
+}
+body{
+  background-image: url('https://th.bing.com/th/id/OIP.FHkXMzMU0YR5GLc4lItepAHaEK?w=270&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.gradient-custom {
+  background: red;
+  background: -webkit-linear-gradient(to right bottom, #A5C9CA, #E7F6F2);
+  background: linear-gradient(to right bottom, #E7F6F2, #A5C9CA)
+  }
+.lawda{
+  display: inline-flex;
+  margin-inline-end: 40px;
+}
+.space{
+  height: 30px;
+}
+.collapse ul li{
+  margin-inline-start: 35px;
+}
